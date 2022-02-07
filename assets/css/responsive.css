@@ -1,0 +1,114 @@
+
+/* Mobile & Tablet */
+@media (max-width: 1023px) {
+    .hide-on-mobile-tablet {
+        display: none;
+    }
+    .header-info {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 120px;
+    }
+    .header-info__user {
+        flex-direction: column;
+        align-items: center;
+        margin-top: -84px;
+    }
+    .header-info__contact {
+        border-left: none;
+        padding: 40px 0 0 40px;
+    }
+    .header-info__address {
+        width: 100%;
+        padding-left: unset;
+    }
+    .header-info__info-job {
+        text-align: center;
+    }
+    .header-info__info-socials {
+        margin-top: 20px;
+    }
+
+    .option__list {
+        flex-direction: row;
+        padding: 28px 32px;
+    }
+    .option__item {
+        margin: 0 8px;
+    }
+    .option__item:not(:first-child) {
+        margin-top: unset;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .hide-on-tablet {
+        display: none;
+    }
+    .header-info__contact {
+        width: 100%;
+    }
+    .option__wrapper {
+        position: unset!important;
+        top: unset!important;
+        width: unset!important;
+        margin-top: 30px!important;
+        transition: unset!important;
+    }
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+    .hide-on-mobile {
+        display: none;
+    }
+    .header-info__info {
+        margin-left: 0;
+    }
+    .header-info__contact {
+        flex-direction: column;
+        width: 100%;
+    }
+    .option__wrapper {
+        position: fixed!important;
+        top: unset!important;
+        bottom: -1px!important;
+        left: 0!important;
+        right: 0!important;
+        width: 100%!important;
+        margin-top: unset!important;
+        z-index: 99!important;
+        border-radius: unset!important;
+        transition: unset!important;
+    }
+    .option__list {
+        padding: 8px;
+    }
+    .option__item {
+        height: 68px;
+        width: 23%;
+        margin: 0 5px;
+        padding: 6px;
+        background-color: var(--white-color);
+    }
+    .option__item-title {
+        font-size: 1.2rem;
+    }
+    .extention__wrapper {
+        margin: 32px 0 100px 0;
+    }
+    .entertain__body {
+        margin-left: 20px;
+    }
+    .entertain__img {
+        width: 128px;
+        height: 78px;
+    }
+}
+
+@media (max-width: 400px) {
+    .wide {
+        width: 340px;
+    }
+}

@@ -1,0 +1,34 @@
+
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+    --border-color: #dbdbdb;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.mt-10 {
+    margin-top: 10px!important;
+}
+
+.mt-20 {
+    margin-top: 20px!important;
+}
+
+.mb-0 {
+    margin-bottom: 0!important;
+}
+
+
+
+
